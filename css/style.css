@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+
+/* Banner section */
+
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/banner1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+header .navigation-wrap {
+    padding-top: 20px;
+}
+
+.navigation-wrap .img-logo {
+    width: 200px;
+}
+
+.navigation-wrap .main-btn {
+    display: inline-block;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    padding: 10px 35px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+header .container .row {
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin-top: 250px;
+}
+
+header .container .row .main-head {
+    text-align: center;
+    justify-content: center;
+    font-size: 60px;
+    font-family: pacificio;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+header .container .row .sub-head {
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.input-group {
+    width: 90%;
+    max-width: 500px;
+    border-radius: 25px;
+    background: #fff;
+    margin: auto;
+    padding: 2px;
+    margin-top: 10px;
+}
+
+.input-group .form-control {
+    border-radius: 25px;
+    margin: 1.5px;
+    border: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: .5px;
+}
+
+.input-group .input-group-text {
+    width: 100px;
+    background-image: linear-gradient(#00ff7e, #1f3d90);
+    border: 0;
+    border-radius: 25px;
+    margin: 3px;
+    color: #fff;
+    box-shadow: none;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/* Features section */
+
+#features {
+    margin: 100px;
+    overflow: hidden;
+}
+
+#features h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#features .card-group {
+    justify-content: center;
+}
+
+#features .card-head {
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#features .card-para {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+#features .card-body {
+    margin-top: 20px;
+}
+
+#features .money-rating {
+    position: relative;
+}
+
+#features .money-rating .money {
+    position: absolute;
+    z-index: 10;
+    border: 1px solid orangered;
+    padding: 10px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: orangered;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: -25px;
+}
+
+#features .money-rating .rating {
+    margin-left: 72%;
+    margin-bottom: -30px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    margin-top: -26px;
+    padding-left: 2px;
+}
+
+#features .money-rating .rating .fa-star {
+    color: orangered;
+    margin-bottom: -10px;
+}
+
+#features .money-rating .rating .fa-star-half-stroke {
+    color: orangered;
+}
+
+#features .tour-pkgs {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    margin-left: 10px;
+}
+
+#features .tour-pkgs .location,
+.day,
+.night {
+    display: flex;
+    /* align-items: center; */
+    text-align: center;
+    font-size: 19px;
+    font-weight: 500;
+    margin: 8px;
+}
+
+#features .fa-location-dot,
+.fa-sun,
+.fa-moon {
+    color: orangered;
+    margin: 5px;
+}
+
+/* Travelling Gallery section */
+
+#t-gallery {
+    overflow: hidden;
+    margin: 100px 0 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+}
+
+#t-gallery h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 80px;
+    cursor: pointer;
+}
+
+#t-gallery .g-grid {
+    margin: 50px 110px 100px;
+}
+
+#t-gallery .g-grid .col img {
+    cursor: pointer;
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+
+#t-gallery .g-grid .col img:hover {
+    transform: scale(1.1);
+}
+
+#t-gallery .g-grid .col p {
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 16%;
+    z-index: 1;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    font-family: cursive;
+    font-weight: 500;
+    cursor: pointer;
+    text-shadow: 2px 2px black;
+}
+
+#t-gallery .g-grid .col .img-P {
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 36%;
+    z-index: 1;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    font-family: cursive;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#t-gallery .g-grid .col .img-S {
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 22%;
+    z-index: 1;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    font-family: cursive;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#t-gallery .g-grid .col .img-NY {
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 24%;
+    z-index: 1;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    font-family: cursive;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* Offers section */
+
+#offers {
+    background: url(../images/banner2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    width: 100%;
+}
+
+#offers .content {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    height: 250px;
+    margin-top: 300px;
+    position: absolute;
+}
+
+#offers .container {
+    margin-top: 80px;
+}
+
+#offers .container .offers-discount h3 {
+    font-size: 45px;
+    color: #fff;
+    font-weight: 700;
+    font-style: italic;
+    font-family: math;
+}
+
+#offers .container .offers-discount p {
+    font-size: 25px;
+    color: #fff;
+    font-weight: 500;
+    font-family: math;
+}
+
+#offers .main-btn:hover {
+    color: #999;
+}
+
+/* Testimonials */
+
+#testimonials .test-head {
+    margin: 100px 0 0;
+    overflow: hidden;
+}
+
+#testimonials .test-head h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#testimonials .test-cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+#testimonials .wrapper {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#testimonials .wrapper .box {
+    background: #fff;
+    width: calc(33% - 10px);
+    padding: 25px;
+    border-radius: 3px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+#testimonials .wrapper .box i.quote {
+    font-size: 20px;
+    color: #17a2b8;
+}
+
+#testimonials .wrapper .box .content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+#testimonials .box .info .name {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+#testimonials .box .info .job {
+    font-size: 16px;
+    font-weight: 500;
+    color: #17a2b8;
+}
+
+#testimonials .box .info .stars {
+    margin-top: 2px;
+}
+
+#testimonials .box .info .stars i {
+    color: #17a2b8;
+}
+
+#testimonials .box .content .image {
+    height: 75px;
+    width: 75px;
+    padding: 3px;
+    background: #17a2b8;
+    border-radius: 50%;
+}
+
+#testimonials .content .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+#testimonials .box:hover .content .image img {
+    border-color: #fff;
+}
+
+/* Footer Section */
+
+#footer {
+    background: linear-gradient(#2d557d, #9610fb);
+    padding: 50px 0 5px;
+    color: #fff;
+}
+
+#footer .row {
+    justify-content: space-evenly;
+}
+
+#footer .row .col-lg-3 img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+#footer .row .col-lg-3 .about {
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#footer .row .col-lg-3 h3 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer .copywrite  {
+    text-align: center;
+}
