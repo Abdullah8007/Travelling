@@ -1,17 +1,180 @@
-@media (max-width: 1024px){
-    #features .money-rating .rating{
-        margin-left: 50%;
-    }
+@media (max-width: 1440px) {
+
+  /* Features Section */
+
+  #features .money-rating .rating {
+    margin-left: 70%;
+  }
+
+  /* T-Gallery Section */
+
+  #t-gallery .g-grid .col-lg-3 .img-LA {
+    margin-top: 25%;
+    font-size: 30px;
+  }
+
+  #t-gallery .g-grid .col-lg-3 .img-P {
+    margin-top: 25%;
+    font-size: 30px;
+  }
+
+  #t-gallery .g-grid .col-lg-3 .img-S {
+    margin-top: 25%;
+    font-size: 30px;
+  }
+
+  #t-gallery .g-grid .col-lg-3 .img-NY {
+    margin-top: 25%;
+    font-size: 30px;
+  }
+
+  /* Offers Section */
+
+  #offers .content {
+    height: 200px;
+    margin-top: 270px;
+  }
+
+  #offers .container {
+    margin-top: 48px;
+  }
+
+  #offers .container .offers-discount h3 {
+    font-size: 35px;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 1024px) {
+
+  /* Features Section */
+
+  #features .money-rating .rating {
+    margin-left: 54%;
+  }
+
+  #features .container .card {
+    height: fit-content;
+  }
+
+  #features .card-head {
+    font-size: 30px;
+  }
+
+
+  #features .card-para {
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+  }
+
+  #features .tour-pkgs .location,
+  .day,
+  .night {
+    font-size: 14.5px;
+    margin: 1.5px;
+  }
+
+  /* T-Gallery Section */
+
+  #t-gallery .g-grid .col-lg-3 .img-LA {
+    margin-top: 24.5%;
+    font-size: 18.5px;
+  }
+
+  #t-gallery .g-grid .col-lg-3 .img-P {
+    margin-top: 24.5%;
+    font-size: 18.5px;
+  }
+
+  #t-gallery .g-grid .col-lg-3 .img-S {
+    margin-top: 24.5%;
+    font-size: 18.5px;
+  }
+
+  #t-gallery .g-grid .col-lg-3 .img-NY {
+    margin-top: 24.5%;
+    font-size: 18.5px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  /* Features Section */
+
+  #features .money-rating .rating {
+    margin-left: 79%;
+  }
+
+  #features .card-head {
+    font-size: 30px;
+  }
+
+  #features .tour-pkgs .location,
+  .day,
+  .night {
+    font-size: 16.5px;
+    margin: 1.5px;
+  }
+
+  /* T-Gallery Section */
+
+  #t-gallery .g-grid .col-lg-3 .img-LA {
+    margin-top: 26%;
+    font-size: 40px;
+    margin-left: 25.5%;
+  }
+
+  #t-gallery .g-grid .col-lg-3 .img-P {
+    margin-top: 26%;
+    font-size: 40px;
+    margin-left: 40.5%;
+  }
+
+  #t-gallery .g-grid .col-lg-3 .img-S {
+    margin-top: 26%;
+    font-size: 40px;
+    margin-left: 31%;
+  }
+
+  #t-gallery .g-grid .col-lg-3 .img-NY {
+    margin-top: 26%;
+    font-size: 40px;
+    margin-left: 32%;
+  }
+
+  /* Offers Section */
+
+  #offers .content {
+    height: 200px;
+    margin-top: 260px;
+  }
+
+  #offers .container {
+    margin-top: 26px;
+  }
+
+  #offers .container .offers-discount h3 {
+    font-size: 25.5px;
+    font-weight: 600;
+  }
+
+  #offers .container .offers-discount p {
+    font-size: 20px;
+    font-weight: 600;
+  }
 }
 
 @media (max-width: 1045px) {
-    #testimonials .wrapper .box{
-      width: calc(50% - 10px);
-      margin: 10px 0;
-    }
+  #testimonials .wrapper .box {
+    width: calc(50% - 10px);
+    margin: 10px 0;
   }
-  @media (max-width: 702px) {
-    #testimonials .wrapper .box{
-      width: 100%;
-    }
+}
+
+@media (max-width: 702px) {
+  #testimonials .wrapper .box {
+    width: 100%;
   }
+}
