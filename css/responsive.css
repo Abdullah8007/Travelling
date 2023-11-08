@@ -68,7 +68,6 @@
 
   #features .card-para {
     font-size: 16px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 500;
   }
 
@@ -186,5 +185,75 @@
 @media (max-width: 702px) {
   #testimonials .wrapper .box {
     width: 100%;
+  }
+}
+
+                                                      /* 425px */
+
+@media (max-width: 425px) {
+
+  /* Features Section */
+
+  #features .money-rating .rating {
+    margin-left: 42%;
+  }
+
+  #features .card-head {
+    font-size: 27px;
+  }
+
+  #features .card-para {
+    font-size: 14.5px;
+  }
+
+  #features .tour-pkgs .location,
+  .day,
+  .night {
+    font-size: 12px;
+    margin: 0.5px;
+    font-weight: 600;
+  }
+
+  /* T-Gallery Section */
+
+  #t-gallery .g-grid .col-lg-3 .img-LA {
+    margin-top: 25%;
+    font-size: 15px;
+    margin-left: 23.5%;
+  }
+
+  #t-gallery .g-grid .col-lg-3 .img-P {
+    margin-top: 25%;
+    font-size: 15px;
+    margin-left: 39%;
+  }
+
+  #t-gallery .g-grid .col-lg-3 .img-S {
+    margin-top: 25%;
+    font-size: 15px;
+    margin-left: 28%;
+  }
+
+  #t-gallery .g-grid .col-lg-3 .img-NY {
+    margin-top: 25%;
+    font-size: 15px;
+    margin-left: 30%;
+  }
+
+  /* Offers Section */
+
+  #offers .content {
+    height: 225px;
+    margin-top: 275px;
+  }
+
+  #offers .container {
+    margin-top: 20px;
+  }
+
+  #offers .container .offers-discount h3 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 5px;
   }
 }

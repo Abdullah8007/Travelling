@@ -50,6 +50,7 @@ header .container .row .main-head {
     font-family: pacificio;
     font-weight: 500;
     text-transform: capitalize;
+    font-family: cursive;
 }
 
 header .container .row .sub-head {
@@ -99,6 +100,7 @@ header .container .row .sub-head {
 #features h1 {
     text-align: center;
     margin-bottom: 50px;
+    font-family: cursive;
 }
 
 #features .card-group {
@@ -191,7 +193,7 @@ header .container .row .sub-head {
     text-align: center;
     margin-bottom: 50px;
     margin-top: 80px;
-    cursor: pointer;
+    font-family: cursive;
 }
 
 #t-gallery .g-grid {
@@ -216,7 +218,7 @@ header .container .row .sub-head {
     font-size: 30px;
     text-align: center;
     color: #fff;
-    font-family: cursive;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 500;
     cursor: pointer;
     text-shadow: 2px 2px black;
@@ -230,7 +232,7 @@ header .container .row .sub-head {
     font-size: 30px;
     text-align: center;
     color: #fff;
-    font-family: cursive;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 500;
     cursor: pointer;
     text-shadow: 2px 2px black;
@@ -244,7 +246,7 @@ header .container .row .sub-head {
     font-size: 30px;
     text-align: center;
     color: #fff;
-    font-family: cursive;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 500;
     cursor: pointer;
     text-shadow: 2px 2px black;
@@ -258,7 +260,7 @@ header .container .row .sub-head {
     font-size: 30px;
     text-align: center;
     color: #fff;
-    font-family: cursive;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 500;
     cursor: pointer;
     text-shadow: 2px 2px black;
@@ -314,6 +316,7 @@ header .container .row .sub-head {
 #testimonials .test-head h1 {
     text-align: center;
     margin-bottom: 50px;
+    font-family: cursive;
 }
 
 #testimonials .test-cards {
