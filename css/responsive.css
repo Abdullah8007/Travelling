@@ -212,8 +212,7 @@
   .night {
     font-size: 12px;
     margin: 0.5px;
-    font-weight: 600;
-    text-align: center;
+    align-items: baseline;
   }
 
   /* T-Gallery Section */
