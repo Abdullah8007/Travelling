@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.google.com/specimen/Quicksand');
+@import url('https://fonts.google.com/specimen/Homemade+Apple');
 
 * {
     margin: 0;
@@ -24,6 +26,20 @@ header .navigation-wrap {
     width: 200px;
 }
 
+.navigation-wrap .nav-link {
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 500;
+    color: #fff;
+    margin-right: 30px;
+    margin-top: 3.5px;
+    transition: .5s ;
+}
+
+.navigation-wrap .nav-link:hover {
+    color: orangered;
+}
+
 .navigation-wrap .main-btn {
     display: inline-block;
     background: transparent;
@@ -34,6 +50,11 @@ header .navigation-wrap {
     font-weight: 500;
     letter-spacing: 1px;
     color: #fff;
+}
+
+.navigation-wrap .main-btn:hover {
+    color: orangered;
+    border: 2px solid orangered;
 }
 
 header .container .row {
@@ -66,8 +87,9 @@ header .container .row .sub-head {
     border-radius: 25px;
     background: #fff;
     margin: auto;
-    padding: 2px;
+    padding: .5px;
     margin-top: 10px;
+    outline: none;
 }
 
 .input-group .form-control {
@@ -100,7 +122,7 @@ header .container .row .sub-head {
 #features h1 {
     text-align: center;
     margin-bottom: 50px;
-    font-family: cursive;
+    font-family: 'Quicksand' sans-serif;
 }
 
 #features .card-group {
@@ -303,7 +325,7 @@ header .container .row .sub-head {
 }
 
 #offers .main-btn:hover {
-    color: #999;
+    color: orangered;
 }
 
 /* Testimonials */
