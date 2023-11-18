@@ -57,6 +57,10 @@ header .navigation-wrap {
     border: 2px solid orangered;
 }
 
+.navigation-wrap .navbar-toggler {
+    border: transparent;
+}
+
 header .container .row {
     align-items: center;
     justify-content: center;
@@ -367,7 +371,7 @@ header .container .row .sub-head {
 
 #testimonials .wrapper .box i.quote {
     font-size: 20px;
-    color: #17a2b8;
+    color: orangered;
 }
 
 #testimonials .wrapper .box .content {
@@ -386,7 +390,7 @@ header .container .row .sub-head {
 #testimonials .box .info .job {
     font-size: 16px;
     font-weight: 500;
-    color: #17a2b8;
+    color: orangered;
 }
 
 #testimonials .box .info .stars {
@@ -394,14 +398,14 @@ header .container .row .sub-head {
 }
 
 #testimonials .box .info .stars i {
-    color: #17a2b8;
+    color: orangered;
 }
 
 #testimonials .box .content .image {
     height: 75px;
     width: 75px;
     padding: 3px;
-    background: #17a2b8;
+    background: orangered;
     border-radius: 50%;
 }
 
