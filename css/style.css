@@ -435,27 +435,27 @@ header .container .row .sub-head {
     font-size: 45px;
 }
 
-.location{
+#contact .location{
     width: 80%;
     margin: auto;
     padding: 80px 0;
 }
 
-.location iframe{
+#contact .location iframe{
     width: 100%;
 }
 
-.contact-us{
+#contact.contact-us{
     width: 80%;
     margin: auto;
 }
 
-.contact-col{
+#contact .contact-col{
     flex-basis: 48%;
     margin-bottom: 30px;
 }
 
-.contact-col div{
+#contact .contact-col div{
     display: flex;
     align-items: center;
     margin-bottom: 40px;
@@ -468,18 +468,18 @@ header .container .row .sub-head {
     margin-right: 30px;
 }
 
-.contact-col div p{
+#contact .contact-col div p{
     padding: 0;
 }
 
-.contact-col div h5{
+#contact .contact-col div h5{
     font-size: 20px;
     margin-bottom: 5px;
     color: #555;
     font-weight: 400;
 }
 
-.contact-col input, .contact-col textarea{
+#contact .contact-col input, .contact-col textarea{
     width: 100%;
     padding: 15px;
     margin-bottom: 17px;
@@ -488,10 +488,30 @@ header .container .row .sub-head {
     box-sizing: border-box;
 }
 
+#contact .hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid #000000;
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+#contact .hero-btn:hover {
+    border: 1px solid orangered;
+    background: orangered;
+    transition: 0.5s;
+    color: #fff;
+}
+
+
 /* Footer Section */
 
 #footer {
-    background: linear-gradient(#2d557d, #9610fb);
+    background: linear-gradient(45deg, orange, orangered);
     padding: 70px 0 5px;
     color: #fff;
 }
