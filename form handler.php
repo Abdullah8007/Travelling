@@ -9,7 +9,7 @@ $email_subject = 'New Form Submission';
 $email_body = "User Name: $name.\n".
                 "User Email: $visitor_email.\n".
                 "Subject: $subject.\n".
-                "User Messege: $messege.\n".
+                "User Messege: $messege.\n";
 $to = 'abdullahharishjagrala@gmail.com';
 $headers = "From: $email_from \r\n";
 $headers .= "Reply-To: $visitor_email \r\n";
