@@ -124,14 +124,16 @@ header .container .row .sub-head {
 /* Features section */
 
 #features {
-    margin: 100px;
+    /* margin: 100px; */
     overflow: hidden;
 }
 
 #features h1 {
     text-align: center;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 25px;
     font-family: 'Quicksand' sans-serif;
+
 }
 
 #features .card-group {
@@ -430,7 +432,7 @@ header .container .row .sub-head {
 
 #contact h1 {
     text-align: center;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
     font-family: cursive;
     font-size: 45px;
 }
@@ -443,7 +445,7 @@ header .container .row .sub-head {
 
 #contact .location iframe{
     width: 100%;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
 }
 
 #contact.contact-us{
