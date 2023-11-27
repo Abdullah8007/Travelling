@@ -77,6 +77,7 @@
     font-size: 14.5px;
     margin: 1.5px;
   }
+}
 
   /* T-Gallery Section */
 
@@ -100,7 +101,6 @@
     font-size: 18.5px;
   }
 
-}
 
                                                       /* 768px */
 
@@ -109,7 +109,7 @@
   /* Features Section */
 
   #features .money-rating .rating {
-    margin-left: 79%;
+    margin-left: 82%;
   }
 
   #features .card-head {
@@ -195,7 +195,7 @@
   /* Features Section */
 
   #features .money-rating .rating {
-    margin-left: 42%;
+    /* margin-left: 45%; */
     margin-top: -22px;
   }
 
@@ -256,5 +256,194 @@
     font-size: 28px;
     font-weight: 600;
     margin-bottom: 5px;
+  }
+}
+/* Additional Responsive */
+
+@media (max-width: 1399px) {
+  #features .money-rating .rating {
+    margin-left: 66%;
+  }
+}
+
+@media (max-width: 1199px) {
+  #features .money-rating .rating {
+    margin-left: 59%;
+  }
+
+  #features .tour-pkgs .location,
+  .day,
+  .night {
+    font-size: 15px;
+    margin: 0.5px;
+    align-items: baseline;
+  }
+}
+
+@media (max-width: 991px) {
+
+  #features .money-rating .rating {
+    margin-left: 82%;
+  }
+}
+
+@media (max-width: 767px) {
+
+  #features .money-rating .rating {
+    margin-left: 76%;
+  }
+}
+
+@media (max-width: 575px) {
+
+  #features .money-rating .rating {
+    margin-left: 78%;
+  }
+}
+
+@media (max-width: 532px) {
+
+  #features .money-rating .rating {
+    margin-left: 77%;
+  }
+}
+
+@media (max-width: 519px) {
+
+  #features .money-rating .rating {
+    margin-left: 76.5%;
+  }
+}
+
+@media (max-width: 509px) {
+
+  #features .money-rating .rating {
+    margin-left: 76%;
+  }
+}
+
+@media (max-width: 499px) {
+
+  #features .money-rating .rating {
+    margin-left: 75.5%;
+  }
+}
+
+@media (max-width: 489px) {
+
+  #features .money-rating .rating {
+    margin-left: 75%;
+  }
+}
+
+@media (max-width: 480px) {
+
+  #features .money-rating .rating {
+    margin-left: 74%;
+  }
+}
+
+@media (max-width: 462px) {
+
+  #features .money-rating .rating {
+    margin-left: 73%;
+  }
+}
+
+@media (max-width: 446px) {
+
+  #features .money-rating .rating {
+    margin-left: 72%;
+  }
+}
+
+@media (max-width: 431px) {
+
+  #features .money-rating .rating {
+    margin-left: 71%;
+  }
+}
+
+@media (max-width: 417px) {
+
+  #features .money-rating .rating {
+    margin-left: 70%;
+  }
+}
+
+@media (max-width: 404px) {
+
+  #features .money-rating .rating {
+    margin-left: 69%;
+  }
+}
+
+@media (max-width: 392px) {
+
+  #features .money-rating .rating {
+    margin-left: 68%;
+  }
+}
+
+@media (max-width: 380px) {
+
+  #features .money-rating .rating {
+    margin-left: 67%;
+  }
+}
+
+@media (max-width: 370px) {
+
+  #features .money-rating .rating {
+    margin-left: 66%;
+  }
+}
+
+@media (max-width: 359px) {
+
+  #features .money-rating .rating {
+    margin-left: 65%;
+  }
+}
+
+@media (max-width: 344px) {
+
+  #features .money-rating .rating {
+    margin-left: 63.5%;
+  }
+}
+
+@media (max-width: 337px) {
+
+  #features .money-rating .rating {
+    margin-left: 62%;
+  }
+}
+
+@media (max-width: 324px) {
+
+  #features .money-rating .rating {
+    margin-left: 61%;
+  }
+}
+
+@media (max-width: 317px) {
+
+  #features .money-rating .rating {
+    margin-left: 59.5%;
+  }
+}
+
+@media (max-width: 306px) {
+
+  #features .money-rating .rating {
+    margin-left: 58%;
+  }
+}
+
+@media (max-width: 296px) {
+
+  #features .money-rating .rating {
+    margin-left: 56.5%;
   }
 }
