@@ -8,28 +8,6 @@
     margin-left: 70%;
   }
 
-  /* T-Gallery Section */
-
-  #t-gallery .g-grid .col-lg-3 .img-LA {
-    margin-top: 25%;
-    font-size: 30px;
-  }
-
-  #t-gallery .g-grid .col-lg-3 .img-P {
-    margin-top: 25%;
-    font-size: 30px;
-  }
-
-  #t-gallery .g-grid .col-lg-3 .img-S {
-    margin-top: 25%;
-    font-size: 30px;
-  }
-
-  #t-gallery .g-grid .col-lg-3 .img-NY {
-    margin-top: 25%;
-    font-size: 30px;
-  }
-
   /* Offers Section */
 
   #offers .content {
@@ -79,28 +57,6 @@
   }
 }
 
-  /* T-Gallery Section */
-
-  #t-gallery .g-grid .col-lg-3 .img-LA {
-    margin-top: 24.5%;
-    font-size: 18.5px;
-  }
-
-  #t-gallery .g-grid .col-lg-3 .img-P {
-    margin-top: 24.5%;
-    font-size: 18.5px;
-  }
-
-  #t-gallery .g-grid .col-lg-3 .img-S {
-    margin-top: 24.5%;
-    font-size: 18.5px;
-  }
-
-  #t-gallery .g-grid .col-lg-3 .img-NY {
-    margin-top: 24.5%;
-    font-size: 18.5px;
-  }
-
 
                                                       /* 768px */
 
@@ -121,32 +77,6 @@
   .night {
     font-size: 16.5px;
     margin: 1.5px;
-  }
-
-  /* T-Gallery Section */
-
-  #t-gallery .g-grid .col-lg-3 .img-LA {
-    margin-top: 26%;
-    font-size: 40px;
-    margin-left: 25.5%;
-  }
-
-  #t-gallery .g-grid .col-lg-3 .img-P {
-    margin-top: 26%;
-    font-size: 40px;
-    margin-left: 40.5%;
-  }
-
-  #t-gallery .g-grid .col-lg-3 .img-S {
-    margin-top: 26%;
-    font-size: 40px;
-    margin-left: 31%;
-  }
-
-  #t-gallery .g-grid .col-lg-3 .img-NY {
-    margin-top: 26%;
-    font-size: 40px;
-    margin-left: 32%;
   }
 
   /* Offers Section */
@@ -215,32 +145,6 @@
     align-items: baseline;
   }
 
-  /* T-Gallery Section */
-
-  #t-gallery .g-grid .col-lg-3 .img-LA {
-    margin-top: 25%;
-    font-size: 15px;
-    margin-left: 23.5%;
-  }
-
-  #t-gallery .g-grid .col-lg-3 .img-P {
-    margin-top: 25%;
-    font-size: 15px;
-    margin-left: 39%;
-  }
-
-  #t-gallery .g-grid .col-lg-3 .img-S {
-    margin-top: 25%;
-    font-size: 15px;
-    margin-left: 28%;
-  }
-
-  #t-gallery .g-grid .col-lg-3 .img-NY {
-    margin-top: 25%;
-    font-size: 15px;
-    margin-left: 30%;
-  }
-
   /* Offers Section */
 
   #offers .content {
@@ -279,6 +183,8 @@
     align-items: baseline;
   }
 }
+
+/* Feautures  */
 
 @media (max-width: 991px) {
 
@@ -445,5 +351,42 @@
 
   #features .money-rating .rating {
     margin-left: 56.5%;
+  }
+}
+
+/* T-Gallery */
+
+@media (max-width: 1399px) {
+  #t-gallery .container .row h1 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 406px) {
+  #t-gallery .container .row img {
+    width: 150px;
+    padding-right: 10px;
+  }
+
+  #t-gallery .container .row {
+    align-items: center;
+  }
+
+  #t-gallery .container .row h1 {
+    font-size: 20px;
+  }  
+}
+
+@media (max-width: 378px) {
+  #t-gallery .container .row h1 {
+    font-size: 18px;
+  }
+
+  #t-gallery .container .row {
+    align-items: center;
+  }
+
+  #t-gallery .container .row img {
+    padding-right: 35px;
   }
 }
